@@ -1,0 +1,183 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(bg7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px 15px;
+
+}
+h1{
+	color:#f76007;
+ 
+}
+
+.btn{
+padding: 1rem 2rem;
+font-weight: 700;
+border-radius: 300px;
+text-transform: uppercase;
+}
+
+.btn-danger{
+	background-color:#e23109;
+	border-color: #e23109; 
+}
+
+.btn-danger:hover{
+	background-color: #fd3307;
+	border-color: #fd3307;
+	border-width: 2px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.wrap{
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+	--wp-admin-theme-color: #007cba;
+	--wp-admin-theme-color-darker-10: #006ba1;
+	--wp-admin-theme-color-darker-20: #005a87;
+	--swiper-theme-color: #007aff;
+	--swiper-navigation-size: 44px;
+	font-size: 42px;
+	font-family: inherit;
+	line-height: 1.4;
+	box-sizing: border-box;
+	color: #27900b;
+	text-transform: uppercase;
+	width: 100%;
+	display: block;
+	font-weight: 700;
+	}
+a{
+	color: #000;
+	text-decoration: none;  
+}
+a:hover{
+	cursor:pointer;
+}
+.fixed-telephone-number{
+	position: fixed;
+	bottom: 0;
+	right: 200px;
+	color: #fff ;
+	line-height: 26px;
+	background: #0067C4;
+	border-top: 2px solid #005BB6;
+	border-right: 2px solid #005BB6;
+	border-left: 2px solid #005BB6;
+	height: 30;
+	border-top-right-radius: 5px; 
+	border-top-left-radius: 5px;
+	padding:0 15px 0 15px;
+	z-index: 100;
+
+	} 
+.fixed-telephone-number: hover{ 
+		cursor: none;
+
+	}
+.footer-social-icons{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  }
+ .fa-instagram{
+  background: #fd3307;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+ }
+.white{
+	color: #fff;
+}
+.text-green{
+	color:  #27900b;
+	font-weight: bolder;
+
+}
+.buffer{
+	height: 10rem;
+}
+hr{
+	border-color: #fd3307;
+	border-width:3px; 
+	max-width: 70%;
+	border-bottom: 2px solid red;
+	align-content:  center;
+	position: center;
+	margin-left: 15%;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 2px;
+}
+ figure{
+	
+	margin: 15px;
+}
+figcaption {
+  color: #fd3307 ;
+  font-style: italic;
+  margin-left: 20%;
+
+}
+img{
+	transition: all 1s;
+	margin-left: 20%;
+}
+img:hover{
+	transform: scale(1.1);
+}
+.list{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+
+
+.fixed-telephone-number: hover{ 
+		cursor: none;
+
